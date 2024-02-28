@@ -1,0 +1,222 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.topnav {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.links {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 3%;
+}
+
+.links a:hover {
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    border: none;
+}
+
+.logo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(27, 27, 27);
+}
+
+.gods-main {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-and-cults-main.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0%;
+    padding: 3%;
+    padding-bottom: 7%;
+}
+
+.gods-main h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 58px;
+    text-align: center;
+}
+
+.gods-block {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 1.4;
+    margin: 0%;
+    padding: 10%;
+}
+
+.gods-block h2 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+}
+
+.gods-block.human {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-human.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gods-block.tabaxi {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-tabaxi.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gods-block.elf {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-elf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gods-block.orc {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-orc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gods-block.dwarf {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-dwarf.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gods-block.lizard {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-lizard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gods-block.daemon {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-daemon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gods-block.death {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/gods-death.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    text-align: left;
+    color: whitesmoke;
+    background-color: black;
+    padding: 3%;
+    margin: 0%;
+}
+
+.footer-links {
+    color: whitesmoke;
+    background-color: black;
+    padding-left: 3%;
+}
+
+.link-logo img {
+    width: 32px;
+}
+
+.inform p {
+    font-size: smaller;
+}

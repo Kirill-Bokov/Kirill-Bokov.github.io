@@ -1,0 +1,291 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.topnav {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.links {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 3%;
+}
+
+.links a:hover {
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    border: none;
+}
+
+.logo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(27, 27, 27);
+}
+
+.thinner {
+    font-weight: lighter;
+}
+
+.countries-main {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-and-cities-main.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Oswald', sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0%;
+    padding: 3%;
+    padding-bottom: 7%;
+}
+
+.countries-main h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 58px;
+    text-align: center;
+}
+
+.countries-block {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: left;
+    line-height: 1.4;
+    margin: 0%;
+    padding: 10%;
+}
+
+.countries-block h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+.countries-block h3 {
+    font-family: "Montserrat", sans-serif;
+    font-size: small;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.countries-block.narin {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-narin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.ionia {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-ionia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.luchin {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-luchin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.snitin {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-snitin.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.blanche {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-blanche.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.montredon {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-montredon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.eria {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-eria.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.albion {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-albion.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.steinkjer {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-steinkjer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.fogdar {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-fogdar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.turgar {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-turgar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.rummaheim {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-rummaheim.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.forest {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-forest.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.seta {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-seta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.countries-block.heta {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/countries-heta.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    text-align: left;
+    color: whitesmoke;
+    background-color: black;
+    padding: 3%;
+    margin: 0%;
+}
+
+.footer-links {
+    color: whitesmoke;
+    background-color: black;
+    padding-left: 3%;
+}
+
+.link-logo img {
+    width: 32px;
+}
+
+.inform p {
+    font-size: smaller;
+}

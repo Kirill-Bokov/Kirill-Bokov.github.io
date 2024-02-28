@@ -1,0 +1,175 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+.topnav {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.links {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding-left: 3%;
+}
+
+.links a:hover {
+    text-decoration: none;
+}
+
+.links a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    border: none;
+}
+
+.logo a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: x-large;
+    font-weight: 500;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    padding: 10px;
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    font-weight: 600;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(27, 27, 27);
+}
+
+.inform-main {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/inform-main.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    color: whitesmoke;
+    text-align: center;
+    margin: 0%;
+    padding: 3%;
+    padding-bottom: 7%;
+}
+
+.inform-block {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    color: black;
+    text-align: left;
+    line-height: 1.4;
+    margin: 0%;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.inform-block a {
+    text-decoration: none;
+    color: rgb(248, 113, 76)
+}
+
+.inform-block iframe {
+    width: 960px;
+    height: 600px;
+}
+
+.inform-block.image {
+    text-align: center;
+}
+
+.inform-block.races {
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+}
+
+.inform-block.races img {
+    width: 100%;
+    text-align: left;
+}
+
+footer p {
+    font-family: "Montserrat", sans-serif;
+    font-size: larger;
+    text-align: left;
+    color: whitesmoke;
+    background-color: black;
+    padding: 3%;
+    margin: 0%;
+}
+
+.footer-links {
+    color: whitesmoke;
+    background-color: black;
+    padding-left: 3%;
+}
+
+.link-logo img {
+    width: 32px;
+}
+
+.inform p {
+    font-size: smaller;
+}
