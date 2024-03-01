@@ -161,7 +161,7 @@ body {
 .celestials-block.deamon {
     background:
         linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-        url(/img/celestials-deamon.png);
+        url(/img/celestials-daemon.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
