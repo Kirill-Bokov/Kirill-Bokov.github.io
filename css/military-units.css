@@ -194,6 +194,32 @@ body {
     background-position: center;
 }
 
+.military-block.miroslav {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/military-miroslav.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.military-block.sphagea {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/military-sphagea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.military-block.forest-guard {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+        url(/img/military-forest-guard.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
 footer p {
     font-family: "Montserrat", sans-serif;
