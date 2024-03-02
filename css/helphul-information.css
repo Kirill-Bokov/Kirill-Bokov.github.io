@@ -146,12 +146,20 @@ body {
 }
 
 .inform-block iframe {
-    width: 960px;
+    width: 100%;
     height: 600px;
 }
 
 .inform-block.image {
     text-align: center;
+}
+
+.inform-block.image img {
+    width: 45%;
+}
+
+.inform-block.achievements img {
+    width: 100%;
 }
 
 .inform-block.races {
