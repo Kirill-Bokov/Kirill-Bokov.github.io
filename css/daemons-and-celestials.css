@@ -167,6 +167,21 @@ body {
     background-position: center;
 }
 
+.celestials-block a {
+    color: rgb(248, 113, 76);
+    text-decoration: none;
+}
+
+.celestials-block a:hover {
+    color: rgb(248, 113, 76);
+    text-decoration: none;
+}
+
+.celestials-block a:visited {
+    color: rgb(191, 217, 255);
+    text-decoration: none;
+}
+
 footer p {
     font-family: "Montserrat", sans-serif;
     font-size: larger;
