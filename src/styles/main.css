@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Amsterdam';
+  src: url('fonts/Amsterdam Deco One.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  background-color: rgb(29, 29, 29);
+  color: aliceblue;
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  margin-bottom: 1vh;
+}
+
+img {
+  max-width: 100%
+}
+
+
+.markdown-content {
+  text-align: justify;
+  line-height: 1.5;
+  word-wrap: break-word;
+  margin: auto;
+  max-width: 55vw;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Amsterdam";
+  letter-spacing: 3px;
+  font-weight: lighter;
+  text-align: center;
+}
+
+h2 {
+  font-size: 40px;
+  font-family: "Amsterdam";
+  letter-spacing: 3px;
+  font-weight: lighter;
+}
+
+.page-index {
+  background-image: url('/images/prologue.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.footer {
+  margin-top: 1vh;
+  padding-top: 1vh;
+  font-size: 14px;
+  box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.25);
+}
+
+.social-link {
+  color: aliceblue;
+  text-decoration: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  margin-right: 10px;
+}
+
+.social-link:hover,
+.social-link:focus {
+  color: rgb(196, 196, 196);
+  background-color: none;
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 14px;
+  }
+
+  .footer {
+    font-size: 10px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  .markdown-content {
+    max-width: 65vw;
+  }
+}
