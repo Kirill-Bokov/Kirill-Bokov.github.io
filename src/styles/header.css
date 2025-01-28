@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Amsterdam';
-    src: url('fonts/Amsterdam Deco One.ttf') format('truetype');
+    src: url('/fonts/Amsterdam Deco One.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -11,8 +11,8 @@
     margin: 0;
     overflow: hidden;
     box-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
-    position: relative; /* Устанавливаем контекст наложения */
-    z-index: 10; /* Устанавливаем высокий приоритет для хедера */
+    position: relative; 
+    z-index: 10; 
 }
 
 .nav {
