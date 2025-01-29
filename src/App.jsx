@@ -1,24 +1,13 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Content from "./components/Content";
 
 function Main() {
-  const location = useLocation();
-
-  const getContainerClass = () => {
-    switch (location.pathname) {
-      case "/project-delta":
-        return "page-index";
-      default:
-        return "page-default";
-    }
-  };
 
   return (
     <>
       <Header />
-      <div className={getContainerClass()}>
         <Routes>
           <Route path="/project-delta" element={<Content fileName="index.md" />} />
           <Route path="/project-delta/tsaregrad" element={<Content fileName="tsaregrad.md" />} />
@@ -30,7 +19,6 @@ function Main() {
           <Route path="/project-delta/history" element={<Content fileName="history.md" />} />
           <Route path="*" element={<Content fileName="index.md" />} />
         </Routes>
-      </div>
       <Footer />
     </>
   );

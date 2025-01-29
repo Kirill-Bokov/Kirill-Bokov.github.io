@@ -11,8 +11,10 @@ function Content({ fileName }) {
   }, [fileName]);
 
   return (
-    <div className="markdown-content">
-      <ReactMarkdown>{content}</ReactMarkdown>
+    <div className={` ${fileName.replace(".md", "")} `}>
+      <div className="markdown-content">
+        <ReactMarkdown>{content}</ReactMarkdown>
+      </div>
     </div>
   );
 }

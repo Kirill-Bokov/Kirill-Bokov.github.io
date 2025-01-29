@@ -59,7 +59,7 @@ h2 {
   font-weight: lighter;
 }
 
-.page-index {
+.index{
   background-image: url('/images/prologue.png');
   background-size: cover;
   background-position: center;
@@ -68,7 +68,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .footer {
@@ -93,22 +92,22 @@ h2 {
 
 @media (max-width: 768px) {
   html {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .footer {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   h1 {
-    font-size: 40px;
+    font-size: 44px;
   }
 
   h2 {
-    font-size: 30px;
+    font-size: 33px;
   }
 
   .markdown-content {
-    max-width: 65vw;
+    max-width: 85vw;
   }
 }
