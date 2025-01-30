@@ -5,7 +5,7 @@ function Content({ fileName }) {
   const [content, setContent] = useState("");
 
   useEffect(() => {
-    fetch(`/markdown/${fileName}`)
+    fetch(`${import.meta.env.BASE_URL}markdown/${fileName}`)
       .then((res) => res.text())
       .then((text) => setContent(text));
   }, [fileName]);
