@@ -58,6 +58,9 @@ h2 {
   letter-spacing: 3px;
   font-weight: lighter;
 }
+p {
+  margin-bottom: 1.2vh;
+}
 
 .index{
   background-image: url('/images/prologue.png');
