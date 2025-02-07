@@ -58,11 +58,12 @@ h2 {
   letter-spacing: 3px;
   font-weight: lighter;
 }
+
 p {
   margin-bottom: 1.2vh;
 }
 
-.index{
+.index {
   background-image: url('/images/prologue.png');
   background-size: cover;
   background-position: center;
@@ -113,4 +114,32 @@ p {
   .markdown-content {
     max-width: 85vw;
   }
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(224, 157, 87);
+  border-radius: 6px;
+  border: 3px solid rgb(29, 29, 29);
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(44, 44, 44);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(197, 127, 85);
+}
+
+::-webkit-scrollbar-horizontal {
+  height: 12px;
+}
+
+::-webkit-scrollbar-vertical {
+  width: 12px;
 }
